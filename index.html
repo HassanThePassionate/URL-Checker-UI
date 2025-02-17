@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/index.html" class="logo">
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 640 512"
+          height="32px"
+          width="32px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
+          ></path>
+        </svg>
+        <span>URL Checker</span>
+      </a>
+    </header>
+    <main class="main">
+      <section class="hero-section">
+        <span class="badge">URL Checker</span>
+        <h1>Is this link safe?</h1>
+        <p class="para">
+          Scan a URL you want to visit to detect malware, fake websites, and
+          phishing attacks.
+        </p>
+        <div class="input">
+          <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Enter your URL"
+          />
+          <button>Analyze</button>
+        </div>
+        <p class="text">
+          By entering a URL you agree to our
+          <a href="#">terms of service</a> and <a href="#">privacy policy</a>.
+        </p>
+      </section>
+      <section class="hero-section section-2">
+        <h2>What does Link Checker do?</h2>
+        <p>
+          Link Checker is a URL checker tool designed to help you avoid malware,
+          phishing attacks, botnets, and fake websites.
+        </p>
+        <div class="media-box">
+          <div class="image">
+            <img
+              src="./assets/link-checker.svg"
+              alt="link-checker"
+              height="555"
+              width="555"
+            />
+          </div>
+          <div class="text-box">
+            <div class="text-box-item">
+              <h3>Avoid phishing attacks</h3>
+              <p>
+                Got a suspicious email or text? Check the link before clicking —
+                it will significantly reduce the chances of you falling for a
+                phishing attack.
+              </p>
+            </div>
+            <div class="text-box-item">
+              <h3>Block malicious websites</h3>
+              <p>
+                Some websites are ridden with malware that waits to be
+                downloaded and executed on your device. Link Checker will let
+                you know about it before it’s too late.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-3">
+        <h2>What is a malicious URL?</h2>
+        <p>
+          A malicious URL is a link that leads to a website that is in some way
+          dangerous to the user or their device. They are often used in phishing
+          attacks to steal people’s data or to inject their devices with
+          malware.
+        </p>
+      </section>
+      <section class="section-4 faqs">
+        <h2>Frequently asked questions</h2>
+        <div class="faq-container">
+          <div class="question">
+            How can you identify a suspicious URL?
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              height="20px"
+              width="20px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+              ></path>
+            </svg>
+          </div>
+          <div class="answercont">
+            <div class="answer">
+              It’s very difficult to determine if a website will be dangerous
+              just by looking at the URL, especially if it’s hidden under a URL
+              shortener. You can, however, look for typos or changed letters if
+              it’s a well-known domain. For example, if you see arnazon.com,
+              it’s a dead giveaway that someone is trying to scam you with a
+              fake Amazon website.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-container">
+          <div class="question">
+            What happens if you click on a malicious link?
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              height="20px"
+              width="20px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+              ></path>
+            </svg>
+          </div>
+          <div class="answercont">
+            <div class="answer">
+              There’s a chance that nothing will happen — you will immediately
+              see that it’s a suspicious website and leave. But it could also
+              lead to data theft (phishing campaigns are designed to steal
+              credit card info, login details, and other personal information)
+              or malware installed on your device. A drive-by download could
+              inject your device with malware that encrypts your data, showers
+              you with ads, or steals your passwords.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-container">
+          <div class="question">
+            Will Link Checker scan the entire website at once?
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              height="20px"
+              width="20px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+              ></path>
+            </svg>
+          </div>
+          <div class="answercont">
+            <div class="answer">
+              No, Link Checker will only scan the specific URL you’ve entered,
+              not the entire domain.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-container">
+          <div class="question">
+            Is there an app that could check if a link is safe?
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              height="20px"
+              width="20px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+              ></path>
+            </svg>
+          </div>
+          <div class="answercont">
+            <div class="answer">
+              Yes, URL Checker. Its Threat Protection Pro feature is designed to
+              make your browsing safer and smoother. Once you enable it, Threat
+              Protection scans all the websites you visit and blocks your access
+              to them if they are found to contain malware or be part of a scam.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>2025 &copy; URL Checker. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
